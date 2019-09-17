@@ -20,12 +20,18 @@
 					<div>
 						<p>Đây là những hướng dẫn đầu tiên</p>
 						<pre class="brush: php">
-							public class HelloWorld {
-								public function helloWorld {
-									echo 'Hello World';
-								}
+							class HelloWorld {
+							    function getHelloWorld() {
+							        echo 'Hello World';
+							    }
 							}
+							$a = new HelloWorld();
+							$a->getHelloWorld();
 						</pre>
+						<p>Kết quả:</p>
+						<code>
+							Hello World
+						</code>
 					</div>
 					<h3>PHP Function</h3>
 					<div>
