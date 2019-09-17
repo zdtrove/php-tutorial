@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PHP Tutorial</title>
+	<link rel="stylesheet" href="css/shCore.min.css"/>
+	<link rel="stylesheet" href="css/shThemeDefault.min.css"/>
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="text-center p-4">
+	  	<h1>PHP TUTORIAL</h1>
+	</div>
+	<div class="container-fluid">
+		<div class="accordion">
+			<h3>PHP OOP</h3>
+			<div>
+				<div class="accordion">
+					<h3>PHP Class</h3>
+					<div>
+						<p>Đây là những hướng dẫn đầu tiên</p>
+						<pre class="brush: php">
+							public class HelloWorld {
+								public function helloWorld {
+									echo 'Hello World';
+								}
+							}
+						</pre>
+					</div>
+					<h3>PHP Function</h3>
+					<div>
+						<pre class="brush: php">
+							public class HelloWorld {
+								public function helloWorld {
+									echo 'Hello World';
+								}
+							}
+						</pre>
+					</div>
+				</div>
+			</div>
+			<h3>HTML Tutorial</h3>
+			<div>
+				<pre class="brush: php; html-script: true">
+					<div>
+						<h1>HTML</h1>
+					</div>
+				</pre>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/shCore.min.js"></script>
+<script src="js/shBrushPhp.min.js"></script>
+<script src="js/shBrushXml.min.js"></script>
+<script language='javascript' type='text/javascript'>
+	SyntaxHighlighter.config.bloggerMode = true;
+	SyntaxHighlighter.all();
+	$( function() {
+		$(".accordion").accordion();
+	});
+</script>
+</html>
+
